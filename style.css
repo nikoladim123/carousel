@@ -69,6 +69,7 @@ html{
 
 .circleArrow:hover{
   cursor: pointer;
+  opacity: 1;
 }
 .circleArrow{
   border: 2px solid white;
@@ -79,6 +80,7 @@ html{
   transform: rotate(180deg);
   right: 2.5vw;
   top:22.5vw;
+  opacity: 0.6;
 }
 .circleArrow div{
   position: relative;
@@ -86,6 +88,7 @@ html{
   background: white;
   margin-left: 20%;
 }
+
 .topArrow{
   width: 25%;
   transform: rotateZ(-45deg);
